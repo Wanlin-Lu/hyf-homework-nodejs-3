@@ -6,7 +6,7 @@ app.get('/', function(req, res) {
 })
 
 app.get('/users', function(req, res) {
-	res.send([])
+	res.send('[ { id: 0 } ]')
 })
 
 app.post('/users', function(req, res) {
